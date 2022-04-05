@@ -1,0 +1,20 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "shortMessage": "Command failed with exit code 1: /usr/local/bin/pnpm add --global --global-dir /private/var/folders/4x/0ylngwd92m1g41wjg1xpg2zh0000gn/T/dlx-4406 --dir /private/var/folders/4x/0ylngwd92m1g41wjg1xpg2zh0000gn/T/dlx-4406",
+    "command": "/usr/local/bin/pnpm add --global --global-dir /private/var/folders/4x/0ylngwd92m1g41wjg1xpg2zh0000gn/T/dlx-4406 --dir /private/var/folders/4x/0ylngwd92m1g41wjg1xpg2zh0000gn/T/dlx-4406",
+    "escapedCommand": "\"/usr/local/bin/pnpm\" add --global --global-dir \"/private/var/folders/4x/0ylngwd92m1g41wjg1xpg2zh0000gn/T/dlx-4406\" --dir \"/private/var/folders/4x/0ylngwd92m1g41wjg1xpg2zh0000gn/T/dlx-4406\"",
+    "exitCode": 1,
+    "failed": true,
+    "timedOut": false,
+    "isCanceled": false,
+    "killed": false,
+    "err": {
+      "name": "pnpm",
+      "message": "Command failed with exit code 1: /usr/local/bin/pnpm add --global --global-dir /private/var/folders/4x/0ylngwd92m1g41wjg1xpg2zh0000gn/T/dlx-4406 --dir /private/var/folders/4x/0ylngwd92m1g41wjg1xpg2zh0000gn/T/dlx-4406",
+      "stack": "pnpm: Command failed with exit code 1: /usr/local/bin/pnpm add --global --global-dir /private/var/folders/4x/0ylngwd92m1g41wjg1xpg2zh0000gn/T/dlx-4406 --dir /private/var/folders/4x/0ylngwd92m1g41wjg1xpg2zh0000gn/T/dlx-4406\n    at makeError (/usr/local/lib/node_modules/pnpm/dist/pnpx.cjs:36706:17)\n    at handlePromise (/usr/local/lib/node_modules/pnpm/dist/pnpx.cjs:37277:33)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async Object.handler [as dlx] (/usr/local/lib/node_modules/pnpm/dist/pnpx.cjs:169299:7)\n    at async /usr/local/lib/node_modules/pnpm/dist/pnpx.cjs:174691:21\n    at async run (/usr/local/lib/node_modules/pnpm/dist/pnpx.cjs:174665:34)\n    at async /usr/local/lib/node_modules/pnpm/dist/pnpx.cjs:174737:5"
+    }
+  }
+}
